@@ -1,14 +1,10 @@
-.container {
-  margin: 0;
-  padding: 0;
+p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border: 5px solid black;
+  font-weight: 300;
+  color: black;
 }
 
-header {
-  position: fixed;
+body {
   width: 100%;
-  padding: 40px 100px;
-  justify-content: space-between;
-  align-items: center;
+  background-color: chocolate;
 }
