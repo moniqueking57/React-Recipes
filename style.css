@@ -13,18 +13,21 @@ p {
   color: black;
 }
 body {
-  background-color: chocolate;
-  background-image: url("cake-logo.jpg");
-  background-repeat: no-repeat;
+  background: chocolate;
+}
+
+.logo img {
+  width: 75%;
 }
 
 .navigation {
-  height: 10%;
+  height: 20%;
 }
 
 .navigation ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -36,5 +39,10 @@ body {
   border: 1px solid black;
   border-radius: 10px;
   width: 10%;
+  height: 10%;
   text-align: center;
+}
+
+.navigation ul .logo {
+  border: none;
 }
