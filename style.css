@@ -14,10 +14,11 @@ p {
 }
 body {
   background-color: chocolate;
+  background-image: url("cake-logo.jpg");
+  background-repeat: no-repeat;
 }
 
 .navigation {
-  width: 90%;
   height: 10%;
 }
 
@@ -29,4 +30,11 @@ body {
 
 .navigation ul a {
   text-decoration: none;
+}
+
+.navigation ul li {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 10%;
+  text-align: center;
 }
