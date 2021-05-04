@@ -8,3 +8,13 @@ body {
   width: 100%;
   background-color: chocolate;
 }
+
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navigation ul a {
+  text-decoration: none;
+}
