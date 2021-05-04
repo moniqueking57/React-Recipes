@@ -1,12 +1,24 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 300;
   color: black;
 }
-
 body {
-  width: 100%;
   background-color: chocolate;
+}
+
+.navigation {
+  width: 90%;
+  height: 10%;
 }
 
 .navigation ul {
