@@ -14,9 +14,9 @@ p {
   text-align: center;
 }
 
-/* h2{
+h2 {
   text-align: center;
-} */
+}
 
 body {
   background: url("cake-background.jpg") no-repeat center center fixed;
