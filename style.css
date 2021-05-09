@@ -11,7 +11,13 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 300;
   color: black;
+  text-align: center;
 }
+
+/* h2{
+  text-align: center;
+} */
+
 body {
   background: url("cake-background.jpg") no-repeat center center fixed;
   background-size: cover;
